@@ -1,0 +1,89 @@
+<style>
+	#login, #login_relais {
+		display: none;
+	}
+	#loginform, #relais_loginform{
+		margin-top: 0px;
+	}
+	#relais_loginform {
+		
+	}
+	#rl_login {
+		display: none;
+		width: 320px;
+		margin: auto;
+		padding-top: 8%;
+	}
+	#login_relais {
+		display: none;
+	}
+
+	#qrCodeContainer {
+		margin-top: 40px;
+    	text-align: center;
+	}
+
+	#rl_manual_infos_container {
+		display: none;
+		text-align: center;
+	}
+
+	.rl_or {
+		margin: 20px;
+	}
+
+	.login_way_buttons {
+		display: flex;
+		border-top: 1px solid #cecece;
+		border-left: 1px solid #cecece;
+		border-right: 1px solid #cecece;
+	}
+	.login_way_button {
+		text-align: center;
+		padding: 10px !important;
+		width: 50%;
+		background-color: #fff;
+	}
+	.login_way_button.active {
+		border-top: 3px solid #007cba;
+	}
+
+	.enable_rl_link {
+		margin-top: 10px;
+	}
+
+	#relais_loginform {
+		padding-bottom: 26px !important;
+	}
+
+	#error_message {
+		position: relative;
+    	padding: .75rem 1.25rem;
+    	margin-bottom: 1rem;
+    	border: 1px solid transparent;
+    	border-radius: .25rem;
+    	color: #721c24;
+    	background-color: #f8d7da;
+    	border-color: #f5c6cb;
+    	width: 280px;
+    	margin: 8% auto 0 auto;
+    	font-family: Verdana,sans-serif;
+    	margin-bottom: 20px;
+	}
+
+	.errorMessage {
+		position: relative;
+    	padding: .75rem 1.25rem;
+    	margin-bottom: 1rem;
+    	border: 1px solid transparent;
+    	border-radius: .25rem;
+    	color: #721c24;
+    	background-color: #f8d7da;
+    	border-color: #f5c6cb;
+    	margin: 8% auto 0 auto;
+    	font-family: Verdana,sans-serif;
+    	margin-bottom: 20px;
+	}
+
+
+</style>
